@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f1b21;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.container {
+    background-color : #4bb5ac;
+    padding: 25px;
+    box-shadow: 5px;
+    text-align: center;
+}
+.input-field {
+    margin: 10px auto;
+    padding: 10px;
+}
+.btn {
+    background-color: #1e00ff;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
