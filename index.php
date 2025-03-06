@@ -14,13 +14,13 @@
             $angka2 = $_POST['angka2'];
             
             if ($angka1 > $angka2) {
-                echo "<h2>></h2>";
+                echo "<div class='warna'<h1>></h1></div>";
                 echo "<h2>$angka1 lebih besar dari $angka2</h2>";
             } elseif ($angka1 < $angka2) {
-                echo "<";
+                echo "<div class='warna'<h1><</h1></div>";
                 echo "<h2>$angka1 lebih kecil dari $angka2</h2>";
             } else {
-                echo "=";
+                echo "<div class='warna'<h1>=</h1></div>";
                 echo "<h2>$angka1 sama dengan $angka2</h2>";
             }
         }
